@@ -107,9 +107,10 @@ This project integrates IoT, real-time data monitoring, and machine learning to 
 
 ## Results
 The trained ensemble ML model achieved:
-- **Accuracy**: 95%
-- **Precision**: 93%
-- **Recall**: 94%
+- **Accuracy**: 92.56%
+- **Precision**: 91.85%
+- **Recall**: 93.21%
+- **F1 Score**: 92.52%
 
 > The prediction model reliably identifies potential CAD cases based on SpO2 and BPM levels.
 
