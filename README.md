@@ -21,7 +21,6 @@ An IoT-based project that measures BPM (Beats Per Minute) and SpO2 (Oxygen Satur
 - [Results](#results)
 - [Future Enhancements](#future-enhancements)
 - [Acknowledgments](#acknowledgments)
-- [License](#license)
 
 ---
 
@@ -128,6 +127,3 @@ Special thanks to the open-source community and the contributors of libraries fo
 - Google Sheets API
 
 ---
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
