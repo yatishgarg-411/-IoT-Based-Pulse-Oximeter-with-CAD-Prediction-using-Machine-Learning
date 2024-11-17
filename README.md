@@ -99,15 +99,9 @@ This project integrates IoT, real-time data monitoring, and machine learning to 
 ---
 
 ## Video Demonstration
-[![Watch the video](https://img.youtube.com/vi/your-video-id/hqdefault.jpg)](https://youtu.be/your-video-id)
+[![Watch the video](https://drive.google.com/file/d/1QrqLgvT4xKvINX6XmW9WXsrvykU7lZfL/view?usp=sharing)
 
 > Click on the thumbnail to watch the project demo on YouTube.
-
----
-
-## Folder Structure
-📁 IoT-Pulse-Oximeter ├── 📂 Libraries # Arduino libraries required ├── 📂 ML_Model # Jupyter Notebook for ML model ├── 📄 Pulse_Oximeter.ino # Arduino code for ESP32 ├── 📄 Google_Sheets_Logger.ipynb # Jupyter Notebook for data logging ├── 📄 dataset.csv # Dataset for ML training ├── 📄 README.md # Project documentation
-
 
 ---
 
