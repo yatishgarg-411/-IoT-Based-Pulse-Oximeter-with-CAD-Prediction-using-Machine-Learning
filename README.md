@@ -114,16 +114,3 @@ The trained ensemble ML model achieved:
 > The prediction model reliably identifies potential CAD cases based on SpO2 and BPM levels.
 
 ---
-
-## Future Enhancements
-- Add a mobile app for real-time monitoring.
-- Integrate more sensors for additional health metrics.
-
----
-
-## Acknowledgments
-Special thanks to the open-source community and the contributors of libraries for:
-- MAX30100 Sensor
-- Google Sheets API
-
----
