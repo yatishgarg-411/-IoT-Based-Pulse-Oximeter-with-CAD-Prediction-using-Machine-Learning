@@ -86,14 +86,13 @@ This project integrates IoT, real-time data monitoring, and machine learning to 
 ## Features
 - Real-time monitoring of BPM and SpO2.
 - Bluetooth functionality for wireless data transfer.
-- Automatic data logging to Google Sheets.
 - CAD prediction using an ensemble ML model (ANN, SVM, Logistic Regression).
 
 ---
 
 ## How It Works
 1. The hardware collects BPM and SpO2 readings for 20 seconds per person.
-2. Data is sent via Bluetooth and logged into Google Sheets using a Python script.
+2. Data is sent via Bluetooth as well as serial monitor and logged into Google Sheets using a Python script.
 3. The ML model processes the data to predict the likelihood of CAD.
 4. The results are displayed and stored for further analysis.
 
