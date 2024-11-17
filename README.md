@@ -124,7 +124,6 @@ The trained ensemble ML model achieved:
 ## Future Enhancements
 - Add a mobile app for real-time monitoring.
 - Integrate more sensors for additional health metrics.
-- Improve battery life for standalone operation.
 
 ---
 
