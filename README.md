@@ -6,7 +6,7 @@ This project presents a complete solution for capturing BPM (Beats Per Minute) a
 The project integrates hardware components, IoT functionalities, and machine learning to deliver a seamless end-to-end system.
 Features
 
-Real-time monitoring of BPM and SpO2 using MAX30100/02 Sensor.
+Real-time monitoring of BPM and SpO2 using MAX30100 Sensor.
 Bluetooth-enabled ESP32 microcontroller for wireless data transfer.
 Automatic data logging in a Google Spreadsheet using Python.
 CAD prediction using an ensemble ML model comprising ANN, SVM, and Logistic Regression.
