@@ -1,6 +1,6 @@
 # IoT-Based Pulse Oximeter with CAD Prediction using Machine Learning
 
-Overview
+## Overview
 
 This project presents a complete solution for capturing BPM (Beats Per Minute) and SpO2 (Oxygen Saturation) readings from a person using an IoT-based wearable device. The data is processed and stored in a Google Spreadsheet and subsequently analyzed using a trained machine learning model to predict whether the person has Coronary Artery Disease (CAD).
 The project integrates hardware components, IoT functionalities, and machine learning to deliver a seamless end-to-end system.
@@ -12,7 +12,7 @@ Automatic data logging in a Google Spreadsheet using Python.
 CAD prediction using an ensemble ML model comprising ANN, SVM, and Logistic Regression.
 Comprehensive visualization of hardware, software, and data flow.
 
-Hardware Requirements
+## Hardware Requirements
 
 ESP32: Microcontroller for data processing and communication.
 MAX30100 / MAX30102: Pulse oximeter and heart-rate sensor.
