@@ -14,12 +14,13 @@ Comprehensive visualization of hardware, software, and data flow.
 
 ## Hardware Requirements
 
-ESP32: Microcontroller for data processing and communication.
-MAX30100 / MAX30102: Pulse oximeter and heart-rate sensor.
-I2C Display (Optional): For real-time display of readings.
-Power Source: Rechargeable Li-Po battery with a battery management module.
-Miscellaneous: Resistors, jumper wires, and a breadboard for prototyping.
-Hardware Connections
+**ESP32**: Microcontroller for data processing and communication.
+**MAX30100 / MAX30102**: Pulse oximeter and heart-rate sensor.
+**I2C Display** (Optional): For real-time display of readings.
+**Power Source**: Rechargeable Li-Po battery with a battery management module.
+**Miscellaneous**: Resistors, jumper wires, and a breadboard for prototyping.
+
+## Hardware Connections
 ESP32 Pin	MAX30100 Pin
 3.3V	VIN
 GND	GND
