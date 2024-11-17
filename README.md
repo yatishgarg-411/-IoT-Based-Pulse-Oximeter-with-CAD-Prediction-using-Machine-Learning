@@ -11,6 +11,7 @@ Bluetooth-enabled ESP32 microcontroller for wireless data transfer.
 Automatic data logging in a Google Spreadsheet using Python.
 CAD prediction using an ensemble ML model comprising ANN, SVM, and Logistic Regression.
 Comprehensive visualization of hardware, software, and data flow.
+
 Hardware Requirements
 
 ESP32: Microcontroller for data processing and communication.
