@@ -99,7 +99,7 @@ This project integrates IoT, real-time data monitoring, and machine learning to 
 ---
 
 ## Video Demonstration
-[![Watch the video](https://drive.google.com/file/d/1QrqLgvT4xKvINX6XmW9WXsrvykU7lZfL/view?usp=sharing)
+[Watch the video](https://drive.google.com/file/d/1QrqLgvT4xKvINX6XmW9WXsrvykU7lZfL/view?usp=sharing)
 
 > Click on the thumbnail to watch the project demo on YouTube.
 
