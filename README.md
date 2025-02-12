@@ -84,7 +84,7 @@ This project integrates IoT, real-time data monitoring, and machine learning to 
 5. Click "Continue", then "Done".
 6. Go to "APIs & Services" > "Credentials", select your service account.
 7. Under "Keys", click "Add Key" > "Create New Key".
-8. Select JSON format and download the file (e.g., ml-project-441108-d4e5cf52b0af.json).
+8. Select JSON format and download the file.
 9. Move the JSON file to your project directory.
 ##### Step 3: Share Your Google Sheet with the Service Account
 1. Open your Google Sheet.
