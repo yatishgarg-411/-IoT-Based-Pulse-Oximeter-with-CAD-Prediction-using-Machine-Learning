@@ -72,31 +72,28 @@ This project integrates IoT, real-time data monitoring, and machine learning to 
 3. Upload the code to the ESP32.
 
 ### 3. Google Sheets Integration
-## Step 1: Enable Google Sheets API
-Go to the Google Cloud Console
-Create a new project (or use an existing one).
-Navigate to "APIs & Services" > "Library".
-Search for "Google Sheets API" and enable it.
-Also enable the "Google Drive API" (needed for authentication).
-## Step 2: Create a Service Account and Get Credentials
-Go to "APIs & Services" > "Credentials".
-Click "Create Credentials" > "Service Account".
-Fill in the details and click "Create".
-Under "Grant this service account access to the project", assign Editor role.
-Click "Continue", then "Done".
-Go to "APIs & Services" > "Credentials", select your service account.
-Under "Keys", click "Add Key" > "Create New Key".
-Select JSON format and download the file (e.g., ml-project-441108-d4e5cf52b0af.json).
-Move the JSON file to your project directory.
-## Step 3: Share Your Google Sheet with the Service Account
-Open your Google Sheet.
-Click "Share".
-Copy the email from your JSON file (it looks like your-service-account@your-project.iam.gserviceaccount.com).
-Paste this email into the "Share" field and give Editor access.
-Click "Send".
-1. Enable the Google Sheets API.
-2. Download your Service Account JSON key and save it as `your-project-d4e5cf52b0af.json`.
-3. Configure the Jupyter notebook to log data into your Google Sheet.
+##### Step 1: Enable Google Sheets API
+1. Go to the Google Cloud Console
+2. Create a new project (or use an existing one).
+3. Navigate to "APIs & Services" > "Library".
+4. Search for "Google Sheets API" and enable it.
+5. Also enable the "Google Drive API" (needed for authentication).
+##### Step 2: Create a Service Account and Get Credentials
+1. Go to "APIs & Services" > "Credentials".
+2. Click "Create Credentials" > "Service Account".
+3. Fill in the details and click "Create".
+4. Under "Grant this service account access to the project", assign Editor role.
+5. Click "Continue", then "Done".
+6. Go to "APIs & Services" > "Credentials", select your service account.
+7. Under "Keys", click "Add Key" > "Create New Key".
+8. Select JSON format and download the file (e.g., ml-project-441108-d4e5cf52b0af.json).
+9. Move the JSON file to your project directory.
+##### Step 3: Share Your Google Sheet with the Service Account
+1. Open your Google Sheet.
+2. Click "Share".
+3. Copy the email from your JSON file (it looks like your-service-account@your-project.iam.gserviceaccount.com).
+4. Paste this email into the "Share" field and give Editor access.Click "Send".
+5.  Configure the Jupyter notebook to log data into your Google Sheet.
 
 ### 4. Machine Learning Model
 1. Train the provided dataset (`dataset.csv`) using the ensemble ML model in the notebook.
