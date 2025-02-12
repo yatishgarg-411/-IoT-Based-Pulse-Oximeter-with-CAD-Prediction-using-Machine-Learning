@@ -19,8 +19,6 @@ An IoT-based project that measures BPM (Beats Per Minute) and SpO2 (Oxygen Satur
 - [Video Demonstration](#video-demonstration)
 - [Folder Structure](#folder-structure)
 - [Results](#results)
-- [Future Enhancements](#future-enhancements)
-- [Acknowledgments](#acknowledgments)
 
 ---
 
