@@ -13,7 +13,8 @@ An IoT-based project that measures BPM (Beats Per Minute) and SpO2 (Oxygen Satur
   - [1. Hardware Setup](#1-hardware-setup)
   - [2. Arduino Code](#2-arduino-code)
   - [3. Google Sheets Integration](#3-google-sheets-integration)
-  - [4. Machine Learning Model](#4-machine-learning-model)
+  - [4. Determining Port Number](#4-determining-port-number)
+  - [5. Machine Learning Model](#5-machine-learning-model)
 - [Features](#features)
 - [How It Works](#how-it-works)
 - [Video Demonstration](#video-demonstration)
@@ -94,7 +95,27 @@ This project integrates IoT, real-time data monitoring, and machine learning to 
 5. The google sheet is there in the url section when you open the google sheet e.g "https://docs.google.com/spreadsheets/d/sheet_id/edit?gid=0#gid=0"
 6.  Configure the Jupyter notebook to log data into your Google Sheet.
 
-### 4. Machine Learning Model
+### 4. Determining Port Number
+##### How to Find the Correct Serial Port Number on Mac & Windows?
+###### 🔹 On Windows (Find COM Port)
+1. Open Device Manager
+2. Press Win + X → Click Device Manager.
+3. Expand "Ports (COM & LPT)"
+4. Look for "USB Serial Device (COMx)".
+5. Example: COM3, COM5, etc.
+6. Use the COM number in your Python code
+7. If you see USB Serial Device (COM3), set: SERIAL_PORT = 'COM3'
+###### 🔹 On Mac/Linux (Find /dev/ Port)
+1. Open Terminal (Cmd + Space → Type Terminal → Enter).
+2. Run this command to list all serial devices: ls /dev/tty.*
+3. Look for your device
+4. You should see something like:
+/dev/tty.usbserial-0001 \n
+/dev/tty.usbmodem12345
+5. Use that in your Python script:
+SERIAL_PORT = '/dev/tty.usbserial-0001'
+
+### 5. Machine Learning Model
 1. Train the provided dataset (`dataset.csv`) using the ensemble ML model in the notebook.
 2. Use the trained model to predict CAD from SpO2 and BPM values.
 
