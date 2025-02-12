@@ -110,7 +110,7 @@ This project integrates IoT, real-time data monitoring, and machine learning to 
 2. Run this command to list all serial devices: ls /dev/tty.*
 3. Look for your device
 4. You should see something like:
-/dev/tty.usbserial-0001 \n
+/dev/tty.usbserial-0001 or
 /dev/tty.usbmodem12345
 5. Use that in your Python script:
 SERIAL_PORT = '/dev/tty.usbserial-0001'
