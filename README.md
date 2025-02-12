@@ -107,13 +107,12 @@ This project integrates IoT, real-time data monitoring, and machine learning to 
 7. If you see USB Serial Device (COM3), set: SERIAL_PORT = 'COM3'
 ###### 🔹 On Mac/Linux (Find /dev/ Port)
 1. Open Terminal (Cmd + Space → Type Terminal → Enter).
-2. Run this command to list all serial devices: ls /dev/tty.*
+2. Run this command to list all serial devices: ls /dev/cu.*
 3. Look for your device
 4. You should see something like:
-/dev/tty.usbserial-0001 or
-/dev/tty.usbmodem12345
+/dev/cu.usbserial-0001
 5. Use that in your Python script:
-SERIAL_PORT = '/dev/tty.usbserial-0001'
+SERIAL_PORT = '/dev/cu.usbserial-0001'
 
 ### 5. Machine Learning Model
 1. Train the provided dataset (`dataset.csv`) using the ensemble ML model in the notebook.
