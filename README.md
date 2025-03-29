@@ -80,6 +80,8 @@ https://dl.espressif.com/dl/package_esp32_index.json
 5. Click OK.
 6. Go to Tools → Board → Boards Manager.
 7. Search for ESP32 by Espressif Systems and click Install.
+![image](https://github.com/user-attachments/assets/9a7bffb4-193b-4d5a-a65e-5d8effc99449)
+
 
 ##### 3. Install Required Libraries
 1. Open Arduino IDE.
@@ -104,9 +106,10 @@ https://dl.espressif.com/dl/package_esp32_index.json
 ##### 6. Select ESP32 Board & Port in Arduino IDE
 1. Open Arduino IDE.
 2. Go to Tools → Board and select ESP32-WROOM-DA Module.
-3. Go to Tools → Port and select the correct COM port (e.g., COM3, COM6).
-4. Set Upload Speed to 115200 baud.
-5. Open Serial Monitor (Tools → Serial Monitor) and set baud rate to 115200.
+![image](https://github.com/user-attachments/assets/cbb33f50-b22b-4def-bf07-8d48f32c534a)
+4. Go to Tools → Port and select the correct COM port (e.g., COM3, COM6).
+5. Set Upload Speed to 115200 baud.
+6. Open Serial Monitor (Tools → Serial Monitor) and set baud rate to 115200.
 
 ### 3. Google Sheets Integration
 ##### Step 1: Enable Google Sheets API
