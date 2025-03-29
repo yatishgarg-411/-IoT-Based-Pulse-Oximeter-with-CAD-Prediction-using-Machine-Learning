@@ -65,10 +65,83 @@ This project integrates IoT, real-time data monitoring, and machine learning to 
 2. Optional: Connect the I2C display for real-time data visualization.
 3. Power the setup with a Li-Po battery or USB connection.
 
-### 2. Arduino Code
-1. Install the necessary Arduino libraries in the `/libraries` folder.
-2. Open the `Pulse_Oximeter.ino` file in Arduino IDE.
-3. Upload the code to the ESP32.
+### 2. Arduino Setup
+####1. Install Arduino IDE
+
+Download and install Arduino IDE from the official site:🔗 Arduino IDE Download
+
+Open Arduino IDE after installation.
+
+
+
+####2. Install ESP32 Board Support
+
+Open Arduino IDE.
+
+Go to File → Preferences.
+
+In the Additional Boards Manager URLs, add the following URLs:
+
+https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+https://dl.espressif.com/dl/package_esp32_index.json
+
+Click OK.
+
+Go to Tools → Board → Boards Manager.
+
+Search for ESP32 by Espressif Systems and click Install.
+
+
+
+####3. Install Required Libraries
+
+Open Arduino IDE.
+
+Go to Sketch → Include Library → Manage Libraries.
+
+Search for LiquidCrystal I2C by Macro Schwartz and click Install.
+
+Search for Max30100_milan by Gabriel Gazola Milan and click Install.
+
+
+
+####4. Install CP210x USB-to-Serial Driver
+
+Download the CP210x Universal Windows Driver from Silicon Labs:🔗 CP210x Driver Download
+
+Extract the downloaded ZIP file.
+
+Right-click silabser.inf and select Install.
+
+Restart your computer after installation.
+
+
+
+####5. Verify ESP32 Connection
+
+Connect your ESP32 board to the computer via a USB cable.
+
+Open Device Manager (Win + X → Device Manager).
+
+Under Ports (COM & LPT), check if Silicon Labs CP210x USB to UART (COMx) appears.
+
+If it appears, the driver is installed correctly.
+
+If it appears under Other Devices, repeat Step 4.
+
+
+
+####6. Select ESP32 Board & Port in Arduino IDE
+
+Open Arduino IDE.
+
+Go to Tools → Board and select ESP32-WROOM-DA Module.
+
+Go to Tools → Port and select the correct COM port (e.g., COM3, COM6).
+
+Set Upload Speed to 115200 baud.
+
+Open Serial Monitor (Tools → Serial Monitor) and set baud rate to 115200.
 
 ### 3. Google Sheets Integration
 ##### Step 1: Enable Google Sheets API
