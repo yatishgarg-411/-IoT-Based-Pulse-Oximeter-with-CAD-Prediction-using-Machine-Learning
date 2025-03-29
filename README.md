@@ -68,7 +68,7 @@ This project integrates IoT, real-time data monitoring, and machine learning to 
 ### 2. Arduino Setup
 ##### 1. Install Arduino IDE
 
-Download and install Arduino IDE from the official site:🔗 Arduino IDE Download or Microsoft Store
+Download and install Arduino IDE from the official site:🔗 [Arduino IDE Download](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE) or Microsoft/App Store
 
 Open Arduino IDE after installation.
 
@@ -107,7 +107,7 @@ Search for Max30100_milan by Gabriel Gazola Milan and click Install.
 
 ##### 4. Install CP210x USB-to-Serial Driver
 
-Download the CP210x Universal Windows Driver from Silicon Labs:[🔗 CP210x Driver Download](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
+Download the CP210x Universal Windows Driver from Silicon Labs:🔗[CP210x Driver Download](https://www.silabs.com/developer-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads)
 
 Extract the downloaded ZIP file.
 
