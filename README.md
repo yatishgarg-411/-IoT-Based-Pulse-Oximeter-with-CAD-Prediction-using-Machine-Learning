@@ -74,7 +74,7 @@ This project integrates IoT, real-time data monitoring, and machine learning to 
 1. Open Arduino IDE.
 2. Go to File → Preferences.
 3. In the Additional Boards Manager URLs, add the following URLs:
-https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json,
 https://dl.espressif.com/dl/package_esp32_index.json
 ![WhatsApp Image 2025-03-29 at 14 28 05](https://github.com/user-attachments/assets/5fa67db2-faa9-498c-9a8a-02a7a0a66038)
 5. Click OK.
@@ -91,7 +91,8 @@ https://dl.espressif.com/dl/package_esp32_index.json
 1. Download the CP210x Universal Windows Driver from Silicon Labs:🔗[CP210x Driver Download](https://www.silabs.com/developer-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads)
 2. Extract the downloaded ZIP file.
 3. Right-click silabser.inf and select Install.
-4. Restart your computer after installation.
+![image](https://github.com/user-attachments/assets/bcd159cb-f7c1-4547-a35f-80bc4818fc86)
+5. Restart your computer after installation.
 
 ##### 5. Verify ESP32 Connection
 1. Connect your ESP32 board to the computer via a USB cable.
