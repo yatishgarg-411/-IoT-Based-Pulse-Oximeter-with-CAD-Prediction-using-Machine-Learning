@@ -67,81 +67,45 @@ This project integrates IoT, real-time data monitoring, and machine learning to 
 
 ### 2. Arduino Setup
 ##### 1. Install Arduino IDE
-
-Download and install Arduino IDE from the official site:🔗 [Arduino IDE Download](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE) or Microsoft/App Store
-
-Open Arduino IDE after installation.
-
-
+1. Download and install Arduino IDE from the official site:🔗 [Arduino IDE Download](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE) or Microsoft/App Store
+2. Open Arduino IDE after installation.
 
 ##### 2. Install ESP32 Board Support
-
-Open Arduino IDE.
-
-Go to File → Preferences.
-
-In the Additional Boards Manager URLs, add the following URLs:
-
+1. Open Arduino IDE.
+2. Go to File → Preferences.
+3. In the Additional Boards Manager URLs, add the following URLs:
 https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
 https://dl.espressif.com/dl/package_esp32_index.json
 
-Click OK.
-
-Go to Tools → Board → Boards Manager.
-
-Search for ESP32 by Espressif Systems and click Install.
-
-
+4. Click OK.
+5. Go to Tools → Board → Boards Manager.
+6. Search for ESP32 by Espressif Systems and click Install.
 
 ##### 3. Install Required Libraries
-
-Open Arduino IDE.
-
-Go to Sketch → Include Library → Manage Libraries.
-
-Search for LiquidCrystal I2C by Macro Schwartz and click Install.
-
-Search for Max30100_milan by Gabriel Gazola Milan and click Install.
-
-
+1. Open Arduino IDE.
+2. Go to Sketch → Include Library → Manage Libraries.
+3. Search for LiquidCrystal I2C by Macro Schwartz and click Install.
+4. Search for Max30100_milan by Gabriel Gazola Milan and click Install.
 
 ##### 4. Install CP210x USB-to-Serial Driver
-
-Download the CP210x Universal Windows Driver from Silicon Labs:🔗[CP210x Driver Download](https://www.silabs.com/developer-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads)
-
-Extract the downloaded ZIP file.
-
-Right-click silabser.inf and select Install.
-
-Restart your computer after installation.
-
-
+1. Download the CP210x Universal Windows Driver from Silicon Labs:🔗[CP210x Driver Download](https://www.silabs.com/developer-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads)
+2. Extract the downloaded ZIP file.
+3. Right-click silabser.inf and select Install.
+4. Restart your computer after installation.
 
 ##### 5. Verify ESP32 Connection
-
-Connect your ESP32 board to the computer via a USB cable.
-
-Open Device Manager (Win + X → Device Manager).
-
-Under Ports (COM & LPT), check if Silicon Labs CP210x USB to UART (COMx) appears.
-
-If it appears, the driver is installed correctly.
-
-If it appears under Other Devices, repeat Step 4.
-
-
+1. Connect your ESP32 board to the computer via a USB cable.
+2. Open Device Manager (Win + X → Device Manager).
+3. Under Ports (COM & LPT), check if Silicon Labs CP210x USB to UART (COMx) appears.
+4. If it appears, the driver is installed correctly.
+5. If it appears under Other Devices, repeat Step 4.
 
 ##### 6. Select ESP32 Board & Port in Arduino IDE
-
-Open Arduino IDE.
-
-Go to Tools → Board and select ESP32-WROOM-DA Module.
-
-Go to Tools → Port and select the correct COM port (e.g., COM3, COM6).
-
-Set Upload Speed to 115200 baud.
-
-Open Serial Monitor (Tools → Serial Monitor) and set baud rate to 115200.
+1. Open Arduino IDE.
+2. Go to Tools → Board and select ESP32-WROOM-DA Module.
+3. Go to Tools → Port and select the correct COM port (e.g., COM3, COM6).
+4. Set Upload Speed to 115200 baud.
+5. Open Serial Monitor (Tools → Serial Monitor) and set baud rate to 115200.
 
 ### 3. Google Sheets Integration
 ##### Step 1: Enable Google Sheets API
