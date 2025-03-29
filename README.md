@@ -72,13 +72,14 @@ This project integrates IoT, real-time data monitoring, and machine learning to 
 
 ##### 2. Install ESP32 Board Support
 1. Open Arduino IDE.
-2. 2. Go to File → Preferences.
+2. Go to File → Preferences.
 3. In the Additional Boards Manager URLs, add the following URLs:
 https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
 https://dl.espressif.com/dl/package_esp32_index.json
-4. Click OK.
-5. Go to Tools → Board → Boards Manager.
-6. Search for ESP32 by Espressif Systems and click Install.
+![WhatsApp Image 2025-03-29 at 14 28 05](https://github.com/user-attachments/assets/5fa67db2-faa9-498c-9a8a-02a7a0a66038)
+5. Click OK.
+6. Go to Tools → Board → Boards Manager.
+7. Search for ESP32 by Espressif Systems and click Install.
 
 ##### 3. Install Required Libraries
 1. Open Arduino IDE.
