@@ -68,7 +68,7 @@ This project integrates IoT, real-time data monitoring, and machine learning to 
 ### 2. Arduino Setup
 ##### 1. Install Arduino IDE
 1. Download and install Arduino IDE from the official site:🔗 [Arduino IDE Download](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE) or Microsoft/App Store
-2. Open Arduino IDE after installation.
+2. 2. Open Arduino IDE after installation.
 
 ##### 2. Install ESP32 Board Support
 1. Open Arduino IDE.
