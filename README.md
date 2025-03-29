@@ -66,15 +66,15 @@ This project integrates IoT, real-time data monitoring, and machine learning to 
 3. Power the setup with a Li-Po battery or USB connection.
 
 ### 2. Arduino Setup
-#### 1. Install Arduino IDE
+##### 1. Install Arduino IDE
 
-Download and install Arduino IDE from the official site:🔗 Arduino IDE Download
+Download and install Arduino IDE from the official site:🔗 Arduino IDE Download or Microsoft Store
 
 Open Arduino IDE after installation.
 
 
 
-#### 2. Install ESP32 Board Support
+##### 2. Install ESP32 Board Support
 
 Open Arduino IDE.
 
@@ -93,7 +93,7 @@ Search for ESP32 by Espressif Systems and click Install.
 
 
 
-#### 3. Install Required Libraries
+##### 3. Install Required Libraries
 
 Open Arduino IDE.
 
@@ -105,9 +105,9 @@ Search for Max30100_milan by Gabriel Gazola Milan and click Install.
 
 
 
-#### 4. Install CP210x USB-to-Serial Driver
+##### 4. Install CP210x USB-to-Serial Driver
 
-Download the CP210x Universal Windows Driver from Silicon Labs:🔗 CP210x Driver Download
+Download the CP210x Universal Windows Driver from Silicon Labs:[🔗 CP210x Driver Download](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
 
 Extract the downloaded ZIP file.
 
@@ -117,7 +117,7 @@ Restart your computer after installation.
 
 
 
-#### 5. Verify ESP32 Connection
+##### 5. Verify ESP32 Connection
 
 Connect your ESP32 board to the computer via a USB cable.
 
@@ -131,7 +131,7 @@ If it appears under Other Devices, repeat Step 4.
 
 
 
-#### 6. Select ESP32 Board & Port in Arduino IDE
+##### 6. Select ESP32 Board & Port in Arduino IDE
 
 Open Arduino IDE.
 
