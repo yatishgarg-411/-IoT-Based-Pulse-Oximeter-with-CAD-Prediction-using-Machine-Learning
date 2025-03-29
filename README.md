@@ -68,15 +68,14 @@ This project integrates IoT, real-time data monitoring, and machine learning to 
 ### 2. Arduino Setup
 ##### 1. Install Arduino IDE
 1. Download and install Arduino IDE from the official site:🔗 [Arduino IDE Download](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE) or Microsoft/App Store
-2. 2. Open Arduino IDE after installation.
+2. Open Arduino IDE after installation.
 
 ##### 2. Install ESP32 Board Support
 1. Open Arduino IDE.
-2. Go to File → Preferences.
+2. 2. Go to File → Preferences.
 3. In the Additional Boards Manager URLs, add the following URLs:
 https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
 https://dl.espressif.com/dl/package_esp32_index.json
-
 4. Click OK.
 5. Go to Tools → Board → Boards Manager.
 6. Search for ESP32 by Espressif Systems and click Install.
