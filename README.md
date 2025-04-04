@@ -133,7 +133,7 @@ https://dl.espressif.com/dl/package_esp32_index.json
 2. Click "Share".
 3. Copy the email from your JSON file (it looks like your-service-account@your-project.iam.gserviceaccount.com).
 4. Paste this email into the "Share" field and give Editor access.Click "Send".
-5. The google sheet is there in the url section when you open the google sheet e.g "https://docs.google.com/spreadsheets/d/sheet_id/edit?gid=0#gid=0"
+5. The google sheet id is there in the url section when you open the google sheet e.g "https://docs.google.com/spreadsheets/d/sheet_id/edit?gid=0#gid=0"
 6.  Configure the Jupyter notebook to log data into your Google Sheet.
 
 ### 4. Determining Port Number
