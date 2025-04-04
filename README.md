@@ -70,7 +70,15 @@ This project integrates IoT, real-time data monitoring, and machine learning to 
 1. Download and install Arduino IDE from the official site:🔗 [Arduino IDE Download](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE) or Microsoft/App Store
 2. Open Arduino IDE after installation.
 
-##### 2. Install ESP32 Board Support
+##### 2. Downloading files 
+1. Download the pulse_oximeter.ino file
+2. Save this file as a sketch in your Arduino IDE.
+3. Locate the folder where you saved the pulse_oximeter.ino sketch.
+4. Open this folder to access additional files.
+5. Within the sketch folder, download the following files
+   take_readings.ipynb
+   dataset.csv
+##### 3. Install ESP32 Board Support
 1. Open Arduino IDE.
 2. Go to File → Preferences.
 3. In the Additional Boards Manager URLs, add the following URLs:
@@ -83,27 +91,27 @@ https://dl.espressif.com/dl/package_esp32_index.json
 ![image](https://github.com/user-attachments/assets/9a7bffb4-193b-4d5a-a65e-5d8effc99449)
 
 
-##### 3. Install Required Libraries
+##### 4. Install Required Libraries
 1. Open Arduino IDE.
 2. Go to Sketch → Include Library → Manage Libraries.
 3. Search for LiquidCrystal I2C by Macro Schwartz and click Install.
 4. Search for Max30100_milan by Gabriel Gazola Milan and click Install.
 
-##### 4. Install CP210x USB-to-Serial Driver
+##### 5. Install CP210x USB-to-Serial Driver
 1. Download the CP210x Universal Windows Driver from Silicon Labs:🔗[CP210x Driver Download](https://www.silabs.com/developer-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads)
 2. Extract the downloaded ZIP file.
 3. Right-click silabser.inf and select Install.
 ![image](https://github.com/user-attachments/assets/bcd159cb-f7c1-4547-a35f-80bc4818fc86)
 5. Restart your computer after installation.
 
-##### 5. Verify ESP32 Connection
+##### 6. Verify ESP32 Connection
 1. Connect your ESP32 board to the computer via a USB cable.
 2. Open Device Manager (Win + X → Device Manager).
 3. Under Ports (COM & LPT), check if Silicon Labs CP210x USB to UART (COMx) appears.
 4. If it appears, the driver is installed correctly.
 5. If it appears under Other Devices, repeat Step 4.
 
-##### 6. Select ESP32 Board & Port in Arduino IDE
+##### 7. Select ESP32 Board & Port in Arduino IDE
 1. Open Arduino IDE.
 2. Go to Tools → Board and select ESP32-WROOM-DA Module.
 ![image](https://github.com/user-attachments/assets/cbb33f50-b22b-4def-bf07-8d48f32c534a)
