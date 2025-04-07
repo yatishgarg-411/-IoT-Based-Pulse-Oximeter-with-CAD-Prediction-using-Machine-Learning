@@ -98,19 +98,19 @@ https://dl.espressif.com/dl/package_esp32_index.json
 3. Search for LiquidCrystal I2C by Macro Schwartz and click Install.
 4. Search for Max30100_milan by Gabriel Gazola Milan and click Install.
 
-##### 5. Install CP210x USB-to-Serial Driver
+##### 5. Verify ESP32 Connection
+1. Connect your ESP32 board to the computer via a USB cable.
+2. Open Device Manager (Win + X → Device Manager).
+3. Under Ports (COM & LPT), check if Silicon Labs CP210x USB to UART (COMx) appears.
+4. If it appears, the driver is installed correctly. Therefore Skip Step 6
+5. If it appears under Other Devices, follow Step 6.
+   
+##### 6. Install CP210x USB-to-Serial Driver
 1. Download the CP210x Universal Windows Driver from Silicon Labs:🔗[CP210x Driver Download](https://www.silabs.com/developer-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads)
 2. Extract the downloaded ZIP file.
 3. Right-click silabser.inf and select Install.
 ![image](https://github.com/user-attachments/assets/bcd159cb-f7c1-4547-a35f-80bc4818fc86)
 5. Restart your computer after installation.
-
-##### 6. Verify ESP32 Connection
-1. Connect your ESP32 board to the computer via a USB cable.
-2. Open Device Manager (Win + X → Device Manager).
-3. Under Ports (COM & LPT), check if Silicon Labs CP210x USB to UART (COMx) appears.
-4. If it appears, the driver is installed correctly.
-5. If it appears under Other Devices, repeat Step 4.
 
 ##### 7. Select ESP32 Board & Port in Arduino IDE
 1. Open Arduino IDE.
