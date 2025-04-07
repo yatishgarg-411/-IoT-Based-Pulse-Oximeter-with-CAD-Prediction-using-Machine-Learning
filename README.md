@@ -71,12 +71,13 @@ This project integrates IoT, real-time data monitoring, and machine learning to 
 2. Open Arduino IDE after installation.
 
 ##### 2. Downloading files 
-1. Download the pulse_oximeter.ino file
+1. Copy the code of pulse_oximeter.ino file into a new arduino sketch file
 2. Save this file as a sketch in your Arduino IDE.
 3. Locate the folder where you saved the pulse_oximeter.ino sketch.
 4. Open this folder to access additional files.
 5. Within the sketch folder, download the following files
    take_readings.ipynb
+   ml.ipnb
    dataset.csv
 ##### 3. Install ESP32 Board Support
 1. Open Arduino IDE.
