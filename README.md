@@ -186,10 +186,16 @@ https://dl.espressif.com/dl/package_esp32_index.json
 
 5. Click "Continue", then "Done".
 6. Go to "APIs & Services" > "Credentials", select your service account and click on service account link in blue.
-![image](https://github.com/user-attachments/assets/621e65d0-00c1-46af-99d3-fc3ce2a74df3)
+![D17C641C-A309-4F0A-833F-009CE14A7F25_1_201_a](https://github.com/user-attachments/assets/28c95c47-1532-4aa0-995e-50827836249d)
 
 7. Under "Keys", click "Add Key" > "Create New Key".
+![image](https://github.com/user-attachments/assets/1ac0f86f-ed90-4cd4-b451-82f288588544)
+![image](https://github.com/user-attachments/assets/269625b5-dd13-4b5c-ae44-d4f3d2964070)
+
+
 8. Select JSON format and download the file.
+![image](https://github.com/user-attachments/assets/390712fc-2033-4043-a0e8-e188634e6a75)
+
 9. Move the JSON file to your project directory.
 ##### Step 3: Share Your Google Sheet with the Service Account
 1. Open your Google Sheet.
