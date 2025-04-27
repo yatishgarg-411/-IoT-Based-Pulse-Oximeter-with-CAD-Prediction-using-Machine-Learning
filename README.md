@@ -147,7 +147,7 @@ https://dl.espressif.com/dl/package_esp32_index.json
 ![image](https://github.com/user-attachments/assets/a7c653bd-c434-44b0-95cb-5fde7f2736e0)
 
 2. Create a new project (or use an existing one) by clicking on the project button on right handside of Google Cloud Logo.
-![image](https://github.com/user-attachments/assets/df264090-39fa-4076-881e-f8bcfe8345a9)
+![image](https://github.com/user-attachments/assets/0112f438-7122-4e22-9259-864a470be2e7)
 ![image](https://github.com/user-attachments/assets/07ee75f3-c01b-4863-bdca-509d76633c2d)
 
 
