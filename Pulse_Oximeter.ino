@@ -6,7 +6,7 @@
 #define REPORTING_PERIOD_MS 1000
 #define MEASUREMENT_DURATION_MS 20000  // Set measurement duration to 20 seconds
 
-LiquidCrystal_I2C lcd(0x27, 16, 2);
+//LiquidCrystal_I2C lcd(0x3F, 16, 2);
 BluetoothSerial SerialBT;
 PulseOximeter pox;
 
@@ -21,8 +21,11 @@ void onBeatDetected() {
 void setup() {
   Serial.begin(115200);
   SerialBT.begin("ESP32");
-  lcd.init();
-  lcd.backlight();
+//  lcd.init();
+//  lcd.backlight();
+//  lcd.print("Welcome");
+//  lcd.setCursor(0, 1);
+//  lcd.print("Place your finger on the sensor");
   
   if (!pox.begin()) {
     Serial.println("FAILED");
@@ -44,6 +47,8 @@ void loop() {
     float spo2 = pox.getSpO2();
     
     if (bpm > 40 && spo2 > 90) {  // Example thresholds for detecting presence
+//      lcd.setCursor(0, 1);
+//      lcd.print("Person detected. Starting measurement...");
       Serial.println("Person detected. Starting measurement...");
       isMeasuring = true;
       measurementStartTime = millis();
@@ -55,14 +60,14 @@ void loop() {
       float bpm = pox.getHeartRate();
       float spo2 = pox.getSpO2();
 
-      lcd.clear();
-      lcd.setCursor(0, 0);
-      lcd.print("BPM: ");
-      lcd.print(bpm);
-      lcd.setCursor(0, 1);
-      lcd.print("SpO2: ");
-      lcd.print(spo2);
-      lcd.print("%");
+//      lcd.clear();
+//      lcd.setCursor(0, 0);
+//      lcd.print("BPM: ");
+//      lcd.print(bpm);
+//      lcd.setCursor(0, 1);
+//      lcd.print("SpO2: ");
+//      lcd.print(spo2);
+//      lcd.print("%");
 
       if (bpm > 0 && spo2 > 0) {
         String data = "BPM: " + String(bpm) + " SpO2: " + String(spo2) + "%";
@@ -80,9 +85,9 @@ void loop() {
       isMeasuring = false;
       
       // Display final reading or reset for next person
-      lcd.clear();
-      lcd.setCursor(0, 0);
-      lcd.print("Measurement done");
+//      lcd.clear();
+//      lcd.setCursor(0, 0);
+//      lcd.print("Measurement done");
     }
   }
 }
