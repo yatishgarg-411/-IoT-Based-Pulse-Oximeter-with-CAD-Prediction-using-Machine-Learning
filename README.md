@@ -143,8 +143,21 @@ https://dl.espressif.com/dl/package_esp32_index.json
 ### 3. Google Sheets Integration
 ##### Step 1: Enable Google Sheets API
 1. Go to the Google Cloud Console
-2. Create a new project (or use an existing one).
+![image](https://github.com/user-attachments/assets/4d33fb2e-a5c3-4a1a-813b-5286c789f10b)
+![image](https://github.com/user-attachments/assets/2e637c06-2960-4af5-8023-b1a90941c2fd)
+
+2. Create a new project (or use an existing one) by clicking on the project button on right handside of Google Cloud Logo.
+![image](https://github.com/user-attachments/assets/1f0b49f1-b809-4180-a950-2cd5e79311b6)
+![image](https://github.com/user-attachments/assets/fb1616c2-a698-48d2-b9f8-4028975db171)
+![image](https://github.com/user-attachments/assets/07ee75f3-c01b-4863-bdca-509d76633c2d)
+
+
 3. Navigate to "APIs & Services" > "Library".
+![image](https://github.com/user-attachments/assets/5157df0f-3176-47f5-852c-59fad58ccf4c)
+![image](https://github.com/user-attachments/assets/81ed1d18-c3f7-4db1-9b37-31d2dddb1b35)
+![image](https://github.com/user-attachments/assets/cd2ff018-1f19-4ad8-829f-dc9f3f0dcd95)
+
+
 4. Search for "Google Sheets API" and enable it.
 5. Also enable the "Google Drive API" (needed for authentication).
 ##### Step 2: Create a Service Account and Get Credentials
