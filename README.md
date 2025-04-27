@@ -132,6 +132,9 @@ https://dl.espressif.com/dl/package_esp32_index.json
 4. Go to Tools → Port and select the correct COM port (e.g., COM3, COM6).
 5. Set Upload Speed to 115200 baud.
 6. Open Serial Monitor (Tools → Serial Monitor) and set baud rate to 115200.
+![image](https://github.com/user-attachments/assets/8b83b548-403f-49b4-9917-38c31398397c)
+![image](https://github.com/user-attachments/assets/a39fe59a-cbb6-448a-8545-f6d7b390ff93)
+
 
 ### 3. Google Sheets Integration
 ##### Step 1: Enable Google Sheets API
