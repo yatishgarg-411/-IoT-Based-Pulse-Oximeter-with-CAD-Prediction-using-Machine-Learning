@@ -72,13 +72,25 @@ This project integrates IoT, real-time data monitoring, and machine learning to 
 
 ##### 2. Downloading files 
 1. Copy the code of pulse_oximeter.ino file into a new arduino sketch file
+![image](https://github.com/user-attachments/assets/64c0e0fd-adbd-47e3-b508-5d0311f99275)
+![image](https://github.com/user-attachments/assets/64c161c7-1afa-434d-a962-47934c8621b3)
+
 2. Save this file as a sketch in your Arduino IDE.
-3. Locate the folder where you saved the pulse_oximeter.ino sketch.
+![image](https://github.com/user-attachments/assets/ecd618c5-8ed0-48fe-8371-f5e6bc44e178)
+![image](https://github.com/user-attachments/assets/222841af-7ae2-41e3-9a7f-4f3cbf07ab82)
+
+3. Locate the folder where you saved the sketch.
+![image](https://github.com/user-attachments/assets/4613de71-745e-4005-86f6-9dc2d751b0f9)
+![image](https://github.com/user-attachments/assets/e99131a8-0408-4014-948f-dc44f5196775)
+![image](https://github.com/user-attachments/assets/48438dfa-aa2b-492b-9b6c-d83642ed0bb6)
+
 4. Open this folder to access additional files.
 5. Within the sketch folder, download the following files
    take_readings.ipynb
    ml.ipnb
    dataset.csv
+![image](https://github.com/user-attachments/assets/1a453a5b-9fae-45c1-a81a-ce7220aaed49)
+
 ##### 3. Install ESP32 Board Support
 1. Open Arduino IDE.
 2. Go to File → Preferences.
