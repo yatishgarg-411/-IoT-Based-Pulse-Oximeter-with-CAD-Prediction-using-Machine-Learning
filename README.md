@@ -87,8 +87,8 @@ This project integrates IoT, real-time data monitoring, and machine learning to 
 4. Open this folder to access additional files.
 ![image](https://github.com/user-attachments/assets/48438dfa-aa2b-492b-9b6c-d83642ed0bb6)
 5. Within the sketch folder, download the following files
-   take_readings.ipynb
-   ml.ipnb
+   take_readings.ipynb,
+   ml.ipnb,
    dataset.csv
 ![image](https://github.com/user-attachments/assets/1a453a5b-9fae-45c1-a81a-ce7220aaed49)
 
@@ -135,7 +135,11 @@ https://dl.espressif.com/dl/package_esp32_index.json
 ![image](https://github.com/user-attachments/assets/8b83b548-403f-49b4-9917-38c31398397c)
 ![image](https://github.com/user-attachments/assets/a39fe59a-cbb6-448a-8545-f6d7b390ff93)
 
-
+#### 8. Final Upload
+1. Click on Verify
+2. After complete verification, click on upload.
+3. After uploading is completed, open serial monitor and place your finger on the sensor to take readings.
+   
 ### 3. Google Sheets Integration
 ##### Step 1: Enable Google Sheets API
 1. Go to the Google Cloud Console
