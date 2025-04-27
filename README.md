@@ -159,10 +159,23 @@ https://dl.espressif.com/dl/package_esp32_index.json
 
 
 4. Search for "Google Sheets API" and enable it.
+![image](https://github.com/user-attachments/assets/32ce435a-6951-426d-9370-acb44827928e)
+![image](https://github.com/user-attachments/assets/ad52a14b-f0bc-434c-a203-ab67af914aec)
+![image](https://github.com/user-attachments/assets/e8f15dec-f278-4ccd-acec-a94a53fcd315)
+
 5. Also enable the "Google Drive API" (needed for authentication).
+![image](https://github.com/user-attachments/assets/1695a4ee-8e89-4e89-939c-322e996d4feb)
+![image](https://github.com/user-attachments/assets/4b92c88e-29bf-4e92-a209-9391e01b2919)
+
 ##### Step 2: Create a Service Account and Get Credentials
-1. Go to "APIs & Services" > "Credentials".
+
+1. Go to "APIs & Services" > "Credentials" by clicking on Navigation Menu drawer button on the left.
+![image](https://github.com/user-attachments/assets/ac708c46-a211-4ec7-9601-6a728d045abb)
+![image](https://github.com/user-attachments/assets/87533256-f71d-485d-ba34-88dd7fc585b5)
+
 2. Click "Create Credentials" > "Service Account".
+![image](https://github.com/user-attachments/assets/4fa7dfeb-8d3f-4758-8f08-430747a9a1ee)
+
 3. Fill in the details and click "Create".
 4. Under "Grant this service account access to the project", assign Editor role.
 5. Click "Continue", then "Done".
