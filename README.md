@@ -175,11 +175,19 @@ https://dl.espressif.com/dl/package_esp32_index.json
 
 2. Click "Create Credentials" > "Service Account".
 ![image](https://github.com/user-attachments/assets/4fa7dfeb-8d3f-4758-8f08-430747a9a1ee)
+![image](https://github.com/user-attachments/assets/684de3f7-675f-49f8-808c-257b644addf2)
 
 3. Fill in the details and click "Create".
+![image](https://github.com/user-attachments/assets/3ad008f8-7196-466a-872c-aa9ab5d475c1)
+
 4. Under "Grant this service account access to the project", assign Editor role.
+![image](https://github.com/user-attachments/assets/34b7fe4d-a5f6-474d-91ad-89f71d7c39ce)
+![image](https://github.com/user-attachments/assets/758fea4e-d2dd-43b8-a5af-6d4b6d5eb2a2)
+
 5. Click "Continue", then "Done".
-6. Go to "APIs & Services" > "Credentials", select your service account.
+6. Go to "APIs & Services" > "Credentials", select your service account and click on service account link in blue.
+![image](https://github.com/user-attachments/assets/621e65d0-00c1-46af-99d3-fc3ce2a74df3)
+
 7. Under "Keys", click "Add Key" > "Create New Key".
 8. Select JSON format and download the file.
 9. Move the JSON file to your project directory.
