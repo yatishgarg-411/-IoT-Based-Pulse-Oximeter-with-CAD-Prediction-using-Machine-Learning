@@ -174,7 +174,7 @@ https://dl.espressif.com/dl/package_esp32_index.json
 ![image](https://github.com/user-attachments/assets/87533256-f71d-485d-ba34-88dd7fc585b5)
 
 2. Click "Create Credentials" > "Service Account".
-![image](https://github.com/user-attachments/assets/4fa7dfeb-8d3f-4758-8f08-430747a9a1ee)
+![image](https://github.com/user-attachments/assets/cc9becc7-62a0-4c8b-9f03-928f39241525)
 ![image](https://github.com/user-attachments/assets/684de3f7-675f-49f8-808c-257b644addf2)
 
 3. Fill in the details and click "Create".
