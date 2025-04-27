@@ -144,12 +144,12 @@ https://dl.espressif.com/dl/package_esp32_index.json
 ##### Step 1: Enable Google Sheets API
 1. Go to the Google Cloud Console
 ![image](https://github.com/user-attachments/assets/4d33fb2e-a5c3-4a1a-813b-5286c789f10b)
-![image](https://github.com/user-attachments/assets/2e637c06-2960-4af5-8023-b1a90941c2fd)
+![image](https://github.com/user-attachments/assets/a7c653bd-c434-44b0-95cb-5fde7f2736e0)
 
 2. Create a new project (or use an existing one) by clicking on the project button on right handside of Google Cloud Logo.
-![image](https://github.com/user-attachments/assets/1f0b49f1-b809-4180-a950-2cd5e79311b6)
-![image](https://github.com/user-attachments/assets/fb1616c2-a698-48d2-b9f8-4028975db171)
+![image](https://github.com/user-attachments/assets/df264090-39fa-4076-881e-f8bcfe8345a9)
 ![image](https://github.com/user-attachments/assets/07ee75f3-c01b-4863-bdca-509d76633c2d)
+
 
 
 3. Navigate to "APIs & Services" > "Library".
