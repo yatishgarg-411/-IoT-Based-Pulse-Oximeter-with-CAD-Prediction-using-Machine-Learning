@@ -79,12 +79,13 @@ This project integrates IoT, real-time data monitoring, and machine learning to 
 ![image](https://github.com/user-attachments/assets/ecd618c5-8ed0-48fe-8371-f5e6bc44e178)
 ![image](https://github.com/user-attachments/assets/222841af-7ae2-41e3-9a7f-4f3cbf07ab82)
 
-3. Locate the folder where you saved the sketch.
+3. Locate the folder(Documents in Windows) where you saved the sketch.
 ![image](https://github.com/user-attachments/assets/4613de71-745e-4005-86f6-9dc2d751b0f9)
 ![image](https://github.com/user-attachments/assets/e99131a8-0408-4014-948f-dc44f5196775)
-![image](https://github.com/user-attachments/assets/48438dfa-aa2b-492b-9b6c-d83642ed0bb6)
+
 
 4. Open this folder to access additional files.
+![image](https://github.com/user-attachments/assets/48438dfa-aa2b-492b-9b6c-d83642ed0bb6)
 5. Within the sketch folder, download the following files
    take_readings.ipynb
    ml.ipnb
