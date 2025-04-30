@@ -31,7 +31,7 @@ This project integrates IoT, real-time data monitoring, and machine learning to 
 
 ## Hardware Components
 - **ESP32**: Microcontroller for data processing and Bluetooth communication.
-- **MAX30100/MAX30102**: Pulse oximeter and heart rate sensor.
+- **MAX30100**: Pulse oximeter and heart rate sensor.
 - **I2C Display** *(Optional)*: To display BPM and SpO2 in real-time.
 - **Power Source**: Rechargeable Li-Po battery and battery management module.
 - **Breadboard, Resistors, and Jumper Wires**: For circuit prototyping.
